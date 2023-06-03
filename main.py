@@ -10,7 +10,7 @@ if choice == 2:
     text, key = disconnection(message)
     print(xor(text, key))
     crypt = False
-else:
+elif choice == 1:
     text = input('Input text: ')
     result = '\n'
     while '\n' in result:
